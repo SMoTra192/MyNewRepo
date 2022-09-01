@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.7311321, g: 0.8072267, b: 1, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
@@ -249,7 +249,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.9339623, g: 0.9091412, b: 0.8414472, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -410,6 +410,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: RYBKA
       objectReference: {fileID: 0}
+    - target: {fileID: 1063896602020190110, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
+      propertyPath: m_ReceiveGI
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1063896602020190110, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1168473512845107335, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -432,7 +440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1768949894061487847, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071068
+      value: 0.72115594
       objectReference: {fileID: 0}
     - target: {fileID: 1768949894061487847, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_LocalRotation.x
@@ -440,7 +448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1768949894061487847, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7071068
+      value: -0.69277275
       objectReference: {fileID: 0}
     - target: {fileID: 1768949894061487847, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_LocalRotation.z
@@ -452,7 +460,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1768949894061487847, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: -87.7
       objectReference: {fileID: 0}
     - target: {fileID: 1768949894061487847, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -476,6 +484,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5013460734921837915, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5038350125623572615, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8076914940711113796, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
+      propertyPath: m_CastShadows
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8193249162593056947, guid: d947a1f8c4b4a714eb015bfcdbb98359, type: 3}
